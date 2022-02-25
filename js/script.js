@@ -72,7 +72,7 @@ $('#cake').click(function(e){
             
         
             clearTimeout(myTimeout);
-            showPopUp(200,"Hey, you are not allowed to eat more.<br> One piece is enough.")
+            showPopUp(200,"Hey, you are not allowed to eat more.<br> You are too sweet already 😉.")
             return
         }
     }
