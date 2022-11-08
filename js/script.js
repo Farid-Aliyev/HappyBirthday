@@ -63,7 +63,7 @@ $('#cake').click(function(e){
             cake_click+=1
             
             if(envelope_click==0){
-                showPopUp(1500,"Think there is a letter in front of the table.<br> Should be something interesting in there.<br> Let's open and read together!")
+                showPopUp(1500,"Stolun qarşısındakı məktuba oxşayır.<br> Aç və birlikdə oxuyaq")
                 return
             }
     
@@ -72,7 +72,7 @@ $('#cake').click(function(e){
             
         
             clearTimeout(myTimeout);
-            showPopUp(200,"Hey, you are not allowed to eat more.<br> You are too sweet already 😉.")
+            showPopUp(200,"Sənə çoxlu şirniyyat yemək olmaz!<br> Özün yetəri qədər şirinsən :)")
             return
         }
     }
